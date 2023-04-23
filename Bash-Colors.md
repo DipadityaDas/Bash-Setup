@@ -36,3 +36,9 @@
 | \e[4;35m | Purple |
 | \e[4;36m | Cyan   |
 | \e[4;37m | White  |
+
+# Reset
+
+| Value | Color  |
+| ----- | ------ |
+| \e[0m | Reset  |
