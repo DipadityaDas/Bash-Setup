@@ -62,6 +62,8 @@ ESC[0m
 
 In the context of ANSI escape sequences, "ESC" stands for the "Escape" character. It is a control character used to initiate an escape sequence, which allows you to modify the appearance or behavior of a text terminal, such as changing text color, background color, or text formatting (e.g., bold or underlined).
 
+NOTE: [ - Begins the CSI (Control Sequence Introducer)
+
 ## ESCAPE CHARACTER
 
 The Escape character is represented by the ASCII value 27 or the hexadecimal value 0x1B. In most programming languages, you can represent it using an escape code like \x1B or \033.
@@ -76,7 +78,6 @@ For example, to change the text color to red, you would use the following escape
 | -------- | -------- | ------ |
 | \033[31m | \x1B[31m | \e[31m |
 | \033[0m  | \x1B[0m  | \e[0m  |
-
 
 
 -----------
