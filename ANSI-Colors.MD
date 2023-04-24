@@ -2,7 +2,7 @@
 
 ## What is ANSI?
 
-[*ANSI*](https://ansi.org/) stands for the [__American National Standards Institute__](https://ansi.org/). It is a private, non-profit organization that oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States. Founded in 1918, ANSI serves as a coordinator and facilitator for standardization efforts, working with various industries, government agencies, and consumer groups.
+[__ANSI__](https://ansi.org/) stands for the [__American National Standards Institute__](https://ansi.org/). It is a private, non-profit organization that oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States. Founded in 1918, ANSI serves as a coordinator and facilitator for standardization efforts, working with various industries, government agencies, and consumer groups.
 
 ANSI's __primary role__ is to:
 
