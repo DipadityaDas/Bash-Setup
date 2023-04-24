@@ -62,7 +62,7 @@ ESC[0m
 
 In the context of ANSI escape sequences, "ESC" stands for the "Escape" character. It is a control character used to initiate an escape sequence, which allows you to modify the appearance or behavior of a text terminal, such as changing text color, background color, or text formatting (e.g., bold or underlined).
 
-NOTE: [ - Begins the CSI (Control Sequence Introducer)
+> **Note:** [ - Begins the CSI (Control Sequence Introducer)
 
 ## ESCAPE CHARACTER
 
@@ -74,10 +74,23 @@ The \e escape sequence is another way to represent the "Escape" character in som
 
 For example, to change the text color to red, you would use the following escape sequence:
 
-| Octal   | Hexadecimal | Bash |
-| -------- | -------- | ------ |
-| \033[31m | \x1B[31m | \e[31m |
-| \033[0m  | \x1B[0m  | \e[0m  |
+- Ctrl-Key: `^[`
+- Octal: `\033`
+- Unicode: `\u001b`
+- Hexadecimal: `\x1B`
+- Decimal: `27`
+
+## Sequences
+
+- `ESC` - sequence starting with `ESC` (`\x1B`)
+- `CSI` - Control Sequence Introducer: sequence starting with `ESC [` or CSI (`\x9B`)
+- `DCS` - Device Control String: sequence starting with `ESC P` or DCS (`\x90`)
+- `OSC` - Operating System Command: sequence starting with `ESC ]` or OSC (`\x9D`)
+
+Any whitespaces between sequences and arguments should be ignored. They are present for improved readability.
+
+## Text Formating Options
+
 
 
 -----------
