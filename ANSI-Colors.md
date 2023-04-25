@@ -222,7 +222,7 @@ The following escape codes tells the terminal to use the given color ID:
 
 Where `{ID}` should be replaced with the color index from 0 to 255 of the following color table:
 
-![256 Color table](https://raw.githubusercontent.com/DipadityaDas/Bash-Setup/main/color-codes.png)
+![256 Color table][ansi_color_png]
 
 The table starts with the original 16 colors (0-15).
 
@@ -248,3 +248,4 @@ These escape sequences are usually not well documented.
 -----------
 [//]: <> (ALL REFERENCES)
 [ansi_ref]: https://ansi.org/
+[ansi_color_png]: https://raw.githubusercontent.com/DipadityaDas/Bash-Setup/main/color-codes.png
