@@ -94,3 +94,4 @@
 | Value | Color  |
 | ----- | ------ |
 | \e[0m | Reset  |
+| \e[m  | Reset  |
